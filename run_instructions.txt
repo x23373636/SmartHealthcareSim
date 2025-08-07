@@ -1,0 +1,11 @@
+# Instructions to Run Smart Healthcare Simulation
+
+1. Open Eclipse IDE
+2. Go to: File > New > Java Project
+   - Project Name: SmartHealthcareSim
+3. Copy the contents of `/src/org/fog/test/SmartHealthcareSimulation.java` into your Eclipse project under the same package.
+4. Right-click the project > Build Path > Configure Build Path > Add External JARs
+   - Add all JAR files from the `/lib` directory
+5. Ensure package structure is: `org.fog.test`
+6. Right-click `SmartHealthcareSimulation.java` > Run As > Java Application
+7. View simulation results in the Eclipse console.
